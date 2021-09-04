@@ -21,6 +21,6 @@ secure end points:
 ![Screenshot (336)](https://user-images.githubusercontent.com/63703601/132044872-29a76236-3bc7-48a9-b5c2-19a9a4bac824.png)
 ![Screenshot (339)](https://user-images.githubusercontent.com/63703601/132044905-22b69545-7a0a-44de-a14f-515fa5cc3685.png)
 ![Screenshot (343)](https://user-images.githubusercontent.com/63703601/132091717-bea67e8d-eebb-4e75-8cf4-117606db2134.png)
-![Screenshot (341)_LI](https://user-images.githubusercontent.com/63703601/132091724-c6c17ad5-cbf5-4dd4-a9d2-e11824a2208c.jpg)
-![Screenshot (342)_LI](https://user-images.githubusercontent.com/63703601/132091728-1fd70b9e-848a-46a0-b591-4c8c9db2f375.jpg)
+![Screenshot (344)_LI](https://user-images.githubusercontent.com/63703601/132092013-45fe9260-b410-45e4-af1b-59ef2c0047d2.jpg)
+![Screenshot (345)_LI](https://user-images.githubusercontent.com/63703601/132092017-53533572-bf51-403b-9238-f0551fc0709b.jpg)
 
