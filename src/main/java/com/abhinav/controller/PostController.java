@@ -19,7 +19,7 @@ public class PostController {
     @PostMapping
     public ResponseEntity createPost(@RequestBody PostDto postDto) {
         postService.createPost(postDto);
-        return new ResponseEntity(HttpStatus.OK);
+        return new ResponseEntity("post created successfully",HttpStatus.OK);
     }
 
     @GetMapping("/all")
@@ -30,5 +30,17 @@ public class PostController {
     @GetMapping("/get/{id}")
     public ResponseEntity<PostDto> getSinglePost(@PathVariable @RequestBody Long id) {
         return new ResponseEntity<>(postService.readSinglePost(id), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<PostDto> deletePost(@PathVariable @RequestBody Long id) {
+        postService.deletePost(id);
+        return new ResponseEntity("post deleted successfully",HttpStatus.OK);
+    }
+
+    @PostMapping("/update")
+    public ResponseEntity updatePost(@RequestBody PostDto postDto) {
+        postService.updatePost(postDto);
+        return new ResponseEntity("post updated successfully",HttpStatus.OK);
     }
 }

@@ -60,4 +60,17 @@ public class PostService {
         post.setUpdatedOn(Instant.now());
         return post;
     }
+
+    @Transactional
+    public void deletePost(Long id) {
+        postRepository.deleteById(id);
+    }
+
+    public void updatePost(PostDto postDto) {
+        Long id=postDto.getId();
+        Post post=postRepository.findById(id).orElseThrow(() -> new PostNotFoundException("For id " + id));
+        post.setTitle(postDto.getTitle());
+        post.setContent(postDto.getContent());
+        postRepository.save(post);
+    }
 }
